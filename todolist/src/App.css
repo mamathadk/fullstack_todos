@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Home Container */
+.home {
+  background: white;
+  padding: 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Todo Input & Button */
+.create-form {
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button.create-form {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+  width: 25%;
+}
+
+button.create-form:hover {
+  background-color: #0056b3;
+}
+
+/* Task List */
+.task {
+  margin-top: 15px;
+}
+
+/* Task Item Container */
+.task-item {
+  display: flex;
+  justify-content: space-between; /* Ensures the delete icon is on the right */
+  align-items: center; /* Aligns everything in a single line */
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  transition: background 0.3s;
+}
+
+.task-item:hover {
+  background: #eaeaea;
+}
+
+/* Checkbox and Task Text */
+.checkbox {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allows text to take up space */
+  cursor: pointer;
+}
+
+.checkbox p {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Completed Task */
+.line_through {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Icons */
+.icon {
+  font-size: 20px;
+  color: #007bff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #0056b3;
+}
+
+/* Delete Icon */
+.delete-icon {
+  color: red;
+  margin-left: 10px; /* Space from text */
+}
+
+.delete-icon:hover {
+  color: darkred;
+}
+
+
